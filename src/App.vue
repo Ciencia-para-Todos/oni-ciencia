@@ -23,6 +23,15 @@
     <Header />
 </template>
 
-<style scoped>
-
+<style>
+    :root {
+        --apricot: #ffd6c0;
+        --melon: #FFA5A5;
+        --deep-pink: #EC368D;
+        --indigo: #440381;
+        --electric-blue: #51E5FF;
+    }
+    body {
+        margin: 0;
+    }
 </style>
