@@ -1,11 +1,28 @@
-<script setup></script>
+<script>
+    import Header from './components/Header.vue'
+
+    export default {
+        components: {
+            Header
+        },
+        data() {
+            return {
+                activePage: 0,
+                pages: [
+                    {
+                        link: { text: 'Home', url: 'index.html'},
+                        pageTitle: 'Início',
+                    }
+                ]
+            }
+        },
+    }
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+    <Header />
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>
